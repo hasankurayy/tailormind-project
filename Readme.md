@@ -12,14 +12,6 @@ skill-test/
 └── README.md          # This file
 ```
 
-## 🚀 Quick Start
-
-# **I ADDED THIS CHANGES**
-- All students endpoint prepared and checked on postman
-- Students endpoints query params or body are validated with zod-schema
-- Adding Zod Error to global-error-handler for find the issue simply
-- Adding response intercepor to `GET /api/v1/students`. You can find in middlewares folder.
-
 # ---------------------------------------------
 # 🚀 Added Features and Improvements
 1. Student Endpoints Completed and Tested
@@ -40,6 +32,8 @@ skill-test/
 - Standardized response structure across `GET /api/v1/students`
 - Reduced code duplication with res.success() helper method
 # ---------------------------------------------
+
+## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js (v16 or higher)
