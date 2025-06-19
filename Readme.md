@@ -14,6 +14,33 @@ skill-test/
 
 ## 🚀 Quick Start
 
+# **I ADDED THIS CHANGES**
+- All students endpoint prepared and checked on postman
+- Students endpoints query params or body are validated with zod-schema
+- Adding Zod Error to global-error-handler for find the issue simply
+- Adding response intercepor to `GET /api/v1/students`. You can find in middlewares folder.
+
+# ---------------------------------------------
+# 🚀 Added Features and Improvements
+1. Student Endpoints Completed and Tested
+- All student CRUD operations endpoints are now fully functional
+- Complete testing done on Postman for all student endpoints
+
+2. Zod Schema Validation Added
+- Validation system implemented using Zod library for student data
+- Invalid data is rejected with clear error messages
+
+3. Zod Error Support Added to Global Error Handler
+- Special support added to global error handler for catching Zod validation errors
+- Validation errors are automatically caught and processed
+- Clear and developer-friendly error messages are returned
+
+4. Response Interceptor Middleware Added
+- Custom middleware implemented for consistent API response format
+- Standardized response structure across `GET /api/v1/students`
+- Reduced code duplication with res.success() helper method
+# ---------------------------------------------
+
 ### Prerequisites
 - Node.js (v16 or higher)
 - PostgreSQL (v12 or higher)
